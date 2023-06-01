@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-bg{
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.container-navigaiton{
+    position: fixed;
+    z-index: 1;
+    display: inline-block;
+    line-height: 5em;
+    margin: 0 10em;
+    height: 5em;
+    width: 80em;  
+    text-align: left;
+    border-bottom: 3px solid #fff;
+}
+.container-navigaiton .navigaiton{
+    display: inline-block;
+    height: 5em;
+    margin: 0 2em;
+
+}  
+.container-navigaiton .navigaiton .action{
+    font-family:'bmwTypeNextWeb' , 'Roboto';
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+} 
+/*///////////////////////////section///////////////////////////////*/
+.container-section{
+    top: 5em;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    line-height: 5em;
+    margin: 0 10em;
+    height: 90%;
+    width: 80em;  
+    text-align: left;
+    border-bottom: 3px solid #fff;
+}
+.container-section .paragrafo{
+    font-size: 20px;
+    color: #000;
+    font-family:'bmwTypeNextWeb' , 'Roboto';
+    margin: 1em;
+}
+.paragrafo.-templait100{
+    font-size: 100px;
+}
+.container-section .box-button{
+    height: 4em;
+    line-height: 4em;
+}
+.container-section .box-button .button{
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    height: 50px;
+    width: 200px;
+    margin: 0 2em;
+    padding: 0 5px;
+    border-radius: 2px;
+    border: 2px solid #999;
+    
+    
+}
+.container-section .box-button .button a{
+    font-family:'bmwTypeNextWeb' , 'Roboto';
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+    color: #000;
+}
+.container-section .box-button .button.-alt {
+    background-color: #0c5cf0;
+}
+/*/////////////////containe section - aside/////////////////////////////*/
+.container-section .paragrafo-aside{
+    font-size: 20px;
+    color: #000;
+    font-family:'bmwTypeNextWeb' , 'Roboto';
+    margin: 0 1em;
+    text-align: center;
+}
+.container-section .paragrafo-aside.-templait50{
+    font-size: 3rem;
+}
+.container-section .paragrafo-aside.-bt{
+    display: inline-block;
+    color: #000;
+    margin-left: 10em;
+}
+.container-section .button-alt{
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 2px;
+    border:2px solid #999 ;
+    margin-left: 8em;
+    margin-bottom: 5em;
+    cursor: pointer;
+}
+/*//////////////////main-section////////////////////*/
+.container-section.-alteracao{
+    text-align: left;
+    height: 100%;
+}
+.paragra-aside{
+    font-size: 20px;
+    color: #fff;
+    font-family:'bmwTypeNextWeb' , 'Roboto';
+    margin: 0 1em;
+}
+.paragra-aside.-templait50{
+    font-size: 3rem;
+    margin-bottom: 9rem;
+}
+
+
+
+
+
