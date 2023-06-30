@@ -1,143 +1,29 @@
+:root{
+    --main-color: #d92123;
+    --primary-text-color:#fff;
+    --secondary-text-color:#191919;
+    --secondary-color:#868686;
+    --tertiary-color:#eff3f4;
+    --secondary-bg-color:#5c1011;
+}
 *{
-    margin: 0;
+    font-family: "lato";
     padding: 0;
-}
-.BG-imagem{
-    display: inline-block;
-    height: auto;
-    width:100% ;
-    position:absolute;
-    z-index: 0;
-}
-.medu-input{
-    display: none;
-}
-header{
-    position: fixed;
-    /*position: absolute;*/
-    background-color: #0a516d;
-    z-index: 2;
-    display: inline-block;
-    height: 150px;
-    width: 100%;
-    border-bottom: 5px solid #fff;
-}
-nav{
-    margin-top: 30px;
-    width: 100%;
-}
-nav, .nivel-1, li, .menu, .action{
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Audiowide', cursive;
-    display: inline-block;
-    font-size: 30px;
-    line-height: 30px;
-    height: 30px;
-    text-align: right;
-    margin-right: 20px;
-    color: rgb(226, 141, 36); 
-    transition: .3s;
-}
-li:hover{
-    transform: scale3d(1.5, 1.2, 0.5)  ;
-    color: rgb(252, 139, 1);
-    text-shadow:  2px 2px 4px #fff; 
-}
-label:hover{
-    transform: scale3d(2.5, 1.2, 0.5)  rotate(5.0turn);
-    color: rgb(252, 139, 1);
-    text-shadow:  2px 2px 4px #fff;
-    cursor: pointer;
-}
-/*//////////drop down//////////////////////*/
-header nav .nivel-1 .nivel-2{
-    width: 150px;
-    display: none;
-    position: absolute;
-}
-header nav .nivel-1 li:hover .nivel-2{
-    display: block;
-}
-header nav .nivel-1 .nivel-2 li .action{
-    display: block;
-    font-size: 15px;
-}
-/*///////////////////sectio// imagems/////////////////////*/
-.container{
-    position: absolute;
-    z-index: 1;
-    display: inline-block;
-    text-align: left;
     margin: 0;
-    margin-top: 155px;
-    height: 960px;
-    width: 970px;
-}
-.container .box-imagens{
-    text-align:left;
     box-sizing: border-box;
-    display: inline-block;
-    width: 970px;
-    height: 930px;
 }
-.container .box-imagens .box-imagem{
-    display: inline-block;
-    height: 290px;
-    width: 310px;
-    margin:5px;
-    
-}
-.container .box-imagens .box-imagem .img{
-    display:inline-block;
-    height: 200px;
-    width: 300px;
-    margin: 5px;
-    border: 3px solid #999;
-}
-.title{
-    font-family: 'Audiowide', cursive;
-    color: rgb(226, 141, 36); 
-}
-.sub-title{
-    margin: 5px;
-}
-.buton{   
+a{
     text-decoration: none;
-    font-family: 'Audiowide', cursive;
-    color: rgb(226, 141, 36);
-    padding: 5px 10px;
-    margin: 5px;
-    background-color: #1351f0;
-    border-radius: 5px;
 }
-/*//////////////formulario////////////////////*/
-.container-form{
-    position: absolute;
-    z-index: 1;
-    display: inline-block;
-    background-color: #00a9d4;
-    height: 30%;
-    width: 35%;
-    margin-top: 193px;
-    margin-left: 1000px;
+img{
+    width: 100%;
 }
-legend{
-    font-size: 20px;
-    color: #f3c75f;
-}
-button{
-    background-color:#0a516d ;
-    color: rgb(226, 141, 36);
-    height: 30px;
-    width: 60px;
-    border-radius: 4px;
-    margin: 5px 0 0 5px;
-    font-size: 20px;
+input[type="submit"]{
     cursor: pointer;
-    
 }
-
-
-
-
+i {
+    background-color: var(--main-color);
+    color: var(--primary-text-color);
+    font-size: 2.5rem;
+    padding: 2rem;
+}
