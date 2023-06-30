@@ -1,0 +1,89 @@
+/*configuração geral*/
+:root{
+    --main-color:#02779e;
+    --secundary-color: #9061c2;
+    --tertiary-color: #eff3f4;
+
+    --primary-text-color: #fff;
+    --secundary-text-color: #f6921d;
+
+    --secundary-bg-color: #be80ff;
+}
+*{
+    font-family: "lato";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+i{
+    background-color: var(--main-color);
+    color: var(--primary-text-color);
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+/*-///header//////////////////////////////////////////////////////////-*/
+#header{
+    min-height: 90vh;
+    background-image: url("../img/x1.gif");
+    background-size: cover;
+    background-position: center;
+    color: var(--primary-text-color);
+    margin-bottom: 2rem;
+}
+#inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#brand{
+    background-color: var(--main-color);
+    padding: 1rem;
+}
+#navbar{
+    display: flex;
+    gap: 3rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+#navbar a{
+    color: var(--secundary-text-color);
+    font-weight: bold;
+}
+.banner.active{
+    opacity: 1;   
+}
+.banner{
+    top: 2rem;
+    left: 2rem;
+    max-width: 50%;
+    padding: 4rem;
+    opacity: 0;
+    position: absolute;
+    transition: 0,6s;
+}
+.banner h2{
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+    z-index: 2;
+}
+.banner p{
+    font-size: 1.5rem;
+}
+.square{
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-color: var(--main-color);
+    position: absolute;
+    z-index: 1;    
+}
