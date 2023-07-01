@@ -5,6 +5,7 @@
     --secondary-color:#868686;
     --tertiary-color:#eff3f4;
     --secondary-bg-color:#5c1011;
+    --tertiary-bg-color:#daf3ea;
 }
 *{
     font-family: "lato";
@@ -26,4 +27,76 @@ i {
     color: var(--primary-text-color);
     font-size: 2.5rem;
     padding: 2rem;
+}
+/*comfort//////////////////////////////////////////////////////*/
+.text-image-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+.text-container{
+    display: flex;
+    flex: 2 1 0;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.section-subtitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--main-color);
+}
+#section-title{
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+.btn{
+    padding: 1.2rem 1.8rem;
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    align-self: flex-end;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.imagem-container{
+    flex: 1 1 300px;
+    position: relative;
+}
+.imagem-container i{
+    position: absolute;  
+}
+/*rocket-parts///////////////////////////////////////////////*/
+#rocket-parts{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+}
+.parts{
+    position: relative;
+
+}
+.parts i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.parts-info{
+    background-color: var(--tertiary-bg-color);
+    padding: 2rem 1.4rem;
+    min-height: 250px;
+    margin-top: -2rem;
+    z-index: 2;
+    position: relative;
+
+}
+.parts-info h4{
+    text-transform: uppercase;
+    margin: 1rem 0;
+    font-size: 1.4rem;
 }
